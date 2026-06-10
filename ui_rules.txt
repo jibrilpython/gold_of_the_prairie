@@ -1,0 +1,42 @@
+1. DESIGN PHILOSOPHY
+Visual: "Grain Exchange Modernism" — the UI draws from the visual language of the commodity trading floor and the agricultural testing laboratory: the chalk-board density of a grain exchange ticker, the precise ruled columns of a bushel weight register, the clean institutional design of a federal grain standards office. These instruments determined the dollar value of an entire harvest — the app should feel like it was built with that same economic gravity. Think a modern agricultural data platform rebuilt as a collector's archive: warm, gridded, harvest-serious.
+Mood: harvest-weighted, commodity-precise, prairie-grounded, institutional warmth, quietly golden.
+Important: No wheat stalk illustrations, no barn-wood textures, no rustic farmhouse styling. The grain trier and test weight scale were legal instruments of commerce — their readings could make or break a farming family's season. The app catalogs that precision with the seriousness of a weights-and-measures office, not a country kitchen.
+
+2. COLORS
+#F7F4EE — Main background (wheat parchment — the warmest, most golden background in the light-background group of the series, like the color of a bushel weight certificate printed on bond paper)
+#1A1508 — Primary text & high-contrast elements (harvest black — the warmest near-black in the series, brown-tinged like ink on grain ledger paper)
+#FFFFFF — Secondary panels / card surfaces
+#7A7260 — Secondary text / muted labels (chaff grey — warm, dusty, like the color of flour on a testing bench)
+#B5820A — Primary accent (prairie gold — the specific deep gold of ripe hard red winter wheat, the brass of a test weight bucket, the color of a Grade No. 1 kernel held to the light. The most literal accent color in the series — it is the color of the thing being measured)
+#E8E2D6 — Outline / stroke / dividers (grain ledger rule lines, warm parchment)
+#4A7C3F — Secondary accent (elevator green — the institutional green of a grain elevator company, a federal grading office door, a co-operative extension service sign. For condition badges, provenance tags, and mint-state indicators)
+#C0392B — Critical errors only
+Important: Prairie gold is the most literal accent color in the entire series — it is the color of the commodity these instruments measured. It should feel abundant and warm without becoming decorative. Elevator green is the counterbalance — the institutional, regulatory color that surrounded the grain trade. Gold for action and selection, green for condition and provenance. The warmest background in the series is non-negotiable: this app lives in the golden hour of harvest light.
+
+3. TYPOGRAPHY
+Display / Headings: Playfair Display (weight 700) — returns for the third time in the series, here earning its place through the tradition of commodity exchange typography: the printed grain circular, the bushel weight certificate, the federal standard publication. At large sizes it carries the authority of a legal instrument of commerce. Used for tool names on detail views and the app title.
+Body / Descriptions: Inter (weight 300–400) — neutral and precise. For condition notes, grain exchange history, measurement specifications, and all prose fields.
+Monospace / Identifiers: JetBrains Mono — for archive codes like GTP-SEEDBURO-TRIER-1932-USA-CHICAGO-BOARD-017, test weight values (60.2 lb/bu), moisture readings (13.5%), and all structured technical fields.
+Important: Playfair Display at 24px and above only. Inter for all reading-size body text. JetBrains Mono for every measurement, grade value, and archive code — grain specifications were legal standards, and the typography should feel certified and exact.
+
+4. SURFACE & TEXTURE LANGUAGE
+
+Backgrounds: flat wheat parchment — no grain effect despite the obvious temptation, no noise, no texture
+Cards: pure white with a 1px border at #E8E2D6 and 10px corner radius — grain inspection record cards, warm and precise
+Test weight arc motif: each list card features a small SVG — a minimal top-view of a circular test weight bucket or sifting screen, rendered as a perfect circle with a thin inner ring indicating fill level. The fill arc in prairie gold shows the instrument's rated capacity as a proportion of its full range; a complete golden ring means maximum-range instrument, a partial arc means a narrower-range tool. Display-condition instruments render the arc in elevator green. This references the circular form of the test weight bucket — the most iconic object in the grain inspection toolkit.
+Test weight badge: each card shows the rated capacity in JetBrains Mono — 60 lb/bu, 0–100 bu/hr, 1–500 seeds — in a small warm-bordered pill. The defining commercial specification.
+Photography: tool photography on warm white — the trier probe tip, scale pan, or sifting screen face forward. For triers, show the full length and the sampling slot. For test weight scales, show the bucket and beam together. No props.
+Exchange provenance tag: small pill showing the originating market or institution — Chicago Board of Trade, Kansas City Exchange, Liverpool Corn Exchange, Canadian Wheat Board — in elevator green at 10% opacity fill with full green text
+
+
+5. INTERACTION PRINCIPLES
+
+Transitions: 210–250ms ease-in-out — measured and deliberate, like grain settling into a test weight bucket
+Selected state: prairie gold left-border (3px) + faint #FBF6EA background tint on active cards
+Empty states: NO TOOLS IN THIS HARVEST YET. in JetBrains Mono, centered, chaff grey — one line
+Loading: a thin prairie gold progress bar at screen top — warm and steady
+Navigation: bottom tab bar — four tabs: Harvest, Exchange Map, Logbook, Settings. Active tab in prairie gold.
+Grain commodity filter: a first-class filter chip row — Wheat, Corn, Barley, Oats, Rye, Sorghum — because the commodity a tool was calibrated for is the primary axis of classification and determines which federal grading standards applied to each instrument
+
+Important: The circular test weight arc on each card is the most commodity-literal motif in the series — the test weight bucket is to grain inspection what the balance scale is to pharmacy or the thermometer is to medicine. A full golden arc means a maximum-range, fully operational instrument. A partial arc means a specialized narrow-range tool. Green arc means display condition. The fill level is data, and a collector should read it before reading a single number.

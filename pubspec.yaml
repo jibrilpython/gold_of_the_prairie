@@ -1,0 +1,49 @@
+name: gold_of_the_prairie
+description: "A grain inspection antiquities archive for cataloging harvest testing instruments."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^3.0.3
+  flutter_screenutil: ^5.9.3
+  google_fonts: ^6.3.2
+  image_picker: ^1.2.1
+  path_provider: ^2.1.5
+  shared_preferences: ^2.5.3
+  uuid: ^4.5.2
+  sensors_plus: ^7.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+  # Add temporarily when regenerating splash: flutter_native_splash: ^2.4.7
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon.jpg"
+  adaptive_icon_background: "#F7F4EE"
+  adaptive_icon_foreground: "assets/images/icon.jpg"
+  remove_alpha_ios: true
+
+flutter_native_splash:
+  color: "#F7F4EE"
+  image: "assets/images/logo.png"
+  android: true
+  ios: true
+  android_12:
+    image: "assets/images/logo.png"
+    color: "#F7F4EE"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
